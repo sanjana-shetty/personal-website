@@ -1,6 +1,7 @@
 # MyPersonalWebsite
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.2.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.2 along  with node js 10.8.0 and npm 6.2.0 versions.
+It is a Resume Website built with HTML5, CSS3, BOOTSTRAP 3.3.7, Angular.
 
 ## Development server
 
