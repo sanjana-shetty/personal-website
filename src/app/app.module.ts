@@ -11,7 +11,7 @@ import { HomeComponent } from './body/home/home.component';
 import { ProfessionalsummaryComponent } from './body/professionalsummary/professionalsummary.component';
 import { AcademicdetailsComponent } from './body/academicdetails/academicdetails.component';
 import { PersonaldetailsComponent } from './body/personaldetails/personaldetails.component';
-
+import { DropdownDirective } from './shared/dropdown.directive';
 
 
 @NgModule({
@@ -22,7 +22,8 @@ import { PersonaldetailsComponent } from './body/personaldetails/personaldetails
     HomeComponent,
     ProfessionalsummaryComponent,
     AcademicdetailsComponent,
-    PersonaldetailsComponent
+    PersonaldetailsComponent,
+    DropdownDirective
   ],
   imports: [
     BrowserModule,
