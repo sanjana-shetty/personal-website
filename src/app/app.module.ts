@@ -8,7 +8,7 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 
 import { HomeComponent } from './body/home/home.component';
-import { ProfessionalsummaryComponent } from './body/professionalsummary/professionalsummary.component';
+import { TechnicalskillComponent } from './body/professionalsummary/technicalskill.component';
 import { AcademicdetailsComponent } from './body/academicdetails/academicdetails.component';
 import { PersonaldetailsComponent } from './body/personaldetails/personaldetails.component';
 import { DropdownDirective } from './shared/dropdown.directive';
@@ -20,7 +20,7 @@ import { DropdownDirective } from './shared/dropdown.directive';
     HeaderComponent,
     FooterComponent,
     HomeComponent,
-    ProfessionalsummaryComponent,
+    TechnicalskillComponent,
     AcademicdetailsComponent,
     PersonaldetailsComponent,
     DropdownDirective
