@@ -1,7 +1,8 @@
 import { NgModule } from '@angular/core';
 
 import { HomeComponent } from './body/home/home.component';
-import { TechnicalskillComponent } from './body/professionalsummary/technicalskill.component';
+import { ProfessionalexpComponent } from './body/professionalsummary/professionalexp/professionalexp.component';
+import { TechnicalskillComponent } from './body/professionalsummary/technicalskill/technicalskill.component';
 import { AcademicdetailsComponent } from './body/academicdetails/academicdetails.component';
 import { PersonaldetailsComponent } from './body/personaldetails/personaldetails.component';
 
@@ -11,9 +12,10 @@ import {Routes,RouterModule} from '@angular/router'
 
 const appRoutes:Routes=[
     {path:'',component:HomeComponent},
-    {path:'Professionalsummary',component:TechnicalskillComponent},
-    {path:'Academicdetails',component:AcademicdetailsComponent},
-    {path:'Personaldetails',component:PersonaldetailsComponent}
+    {path:'technical-skill',component:TechnicalskillComponent},
+    {path:'professional-exp',component:ProfessionalexpComponent},
+    {path:'academic-details',component:AcademicdetailsComponent},
+    {path:'personal-details',component:PersonaldetailsComponent}
     ];
 
 @NgModule({

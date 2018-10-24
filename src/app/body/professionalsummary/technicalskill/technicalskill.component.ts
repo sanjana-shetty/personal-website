@@ -1,9 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-professionalsummary',
-  templateUrl: './professionalsummary.component.html',
-  styleUrls: ['./professionalsummary.component.css']
+  selector: 'app-technicalskill',
+  templateUrl: './technicalskill.component.html',
+  styleUrls: ['./technicalskill.component.css']
 })
 export class TechnicalskillComponent implements OnInit {
 

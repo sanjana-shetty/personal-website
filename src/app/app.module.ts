@@ -8,10 +8,11 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 
 import { HomeComponent } from './body/home/home.component';
-import { TechnicalskillComponent } from './body/professionalsummary/technicalskill.component';
+import { TechnicalskillComponent } from './body/professionalsummary/technicalskill/technicalskill.component';
 import { AcademicdetailsComponent } from './body/academicdetails/academicdetails.component';
 import { PersonaldetailsComponent } from './body/personaldetails/personaldetails.component';
 import { DropdownDirective } from './shared/dropdown.directive';
+import { ProfessionalexpComponent } from './body/professionalsummary/professionalexp/professionalexp.component';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { DropdownDirective } from './shared/dropdown.directive';
     TechnicalskillComponent,
     AcademicdetailsComponent,
     PersonaldetailsComponent,
-    DropdownDirective
+    DropdownDirective,
+    ProfessionalexpComponent
   ],
   imports: [
     BrowserModule,
